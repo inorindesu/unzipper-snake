@@ -1,0 +1,14 @@
+unzipper.py
+
+A python scrpt for extracting zip files containing files with
+CJK (or other) encoded filenames.
+
+To run this file, Python 2 should be present in your system.
+
+To extract a zip file, use:
+
+  ./unzipper.py -d extract/to/here -e big5 a.zip
+
+To list file names of a zip file, use:
+
+  ./unzipper.py -d extract/to/here -e big5 -l a.zip
